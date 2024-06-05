@@ -7,12 +7,12 @@
     --cor-de-fundo-cabecario: #34495e;
 }
 
-
 #cabecario {
     background-color: var(--cor-de-fundo-cabecario);
     height: 150px;
     color: azure;
     text-align: center;
+    position: relative; /* Adicionado */
 }
 #cabecario > h1 {
     padding-top: 25px;
@@ -26,7 +26,19 @@
     text-shadow: 2px 3px 3px black;
     font-family: Cambria, Helvetica, sans-serif;
 }
-nav{
+#imagem1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-500%, -50%);
+}
+#imagem2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-700%, -50%);
+}
+nav {
     background-color: rgba(22, 112, 112, 0.377);
     padding-top: 1px;
     padding-bottom: 10px;
@@ -66,11 +78,17 @@ footer {
 footer > img {
     height: 70px;
 }
-main{
+main {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 5px;
-    line-height:26px;
+    line-height: 26px;
     word-spacing: 1px;
+    width: 600px;
+    margin: auto;
+}
+img {
+    width: 60px;
+    height: 60px;
     
 }
