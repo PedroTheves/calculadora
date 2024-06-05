@@ -7,9 +7,6 @@
     --cor-de-fundo-cabecario: #34495e;
 }
 
-header > h1 {
-    font-weight: 100;
-}
 
 #cabecario {
     background-color: var(--cor-de-fundo-cabecario);
@@ -17,8 +14,20 @@ header > h1 {
     color: azure;
     text-align: center;
 }
+#cabecario > h1 {
+    padding-top: 25px;
+    font-size: 35px;
+    font-weight: 1000;
+    text-shadow: 2px 3px 3px black;
+    font-family: Cambria, Helvetica, sans-serif;
+}
+#cabecario > h2 {
+    padding-top: 12px;
+    text-shadow: 2px 3px 3px black;
+    font-family: Cambria, Helvetica, sans-serif;
+}
 nav{
-    background-color: aqua;
+    background-color: rgba(22, 112, 112, 0.377);
     padding-top: 1px;
     padding-bottom: 10px;
 }
@@ -56,4 +65,12 @@ footer {
 
 footer > img {
     height: 70px;
+}
+main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 5px;
+    line-height:26px;
+    word-spacing: 1px;
+    
 }
