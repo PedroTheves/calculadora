@@ -38,6 +38,12 @@
     left: 50%;
     transform: translate(-700%, -50%);
 }
+#imagem3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-900%, -50%);
+}
 nav {
     background-color: rgba(22, 112, 112, 0.377);
     padding-top: 1px;
@@ -88,6 +94,11 @@ main {
     margin: auto;
     padding-top: 30px;
     font-size: 18px;
+    background-color: rgb(210, 218, 224);
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -95,4 +106,20 @@ img {
     width: 60px;
     height: 60px;
     
+}
+.experiencias{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#whatsapp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-400%, 850%);
+}
+#gmail{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(350%, 850%);
 }
