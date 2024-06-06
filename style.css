@@ -82,11 +82,15 @@ main {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 5px;
-    line-height: 26px;
+
     word-spacing: 1px;
     width: 600px;
     margin: auto;
+    padding-top: 30px;
+    font-size: 18px;
 }
+
+
 img {
     width: 60px;
     height: 60px;
